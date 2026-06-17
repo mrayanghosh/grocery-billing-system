@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+}
+
+h2, h3 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-bar {
+    background: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar .btn {
+    background: #1abc9c;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.logout {
+    background: #e74c3c;
+}
+
+.container {
+    padding: 100px;
+}
+
+.card {
+    background: white;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0 12px;
+}
+
+button {
+    background: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button.primary {
+    background: #27ae60;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background: #ecf0f1;
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    position: center;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.bill-container {
+    width: 210mm;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+.bill-container h2 {
+    text-align: center;
+}
+
+.bill-container table {
+    margin-top: 20px;
+}
+
+.grand-total td {
+    font-weight: bold;
+}
+
+.thanks {
+    text-align: center;
+    margin-top: 20px;
+}
+.user,.pass {
+    width:93%;
+}
+.remove {
+    background: red;
+}
